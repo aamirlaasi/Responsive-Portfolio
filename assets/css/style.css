@@ -976,6 +976,11 @@ input[type=submit]:hover {
     	position: fixed;
     	z-index: 200;
 	}
+	
+	/* Create space between static header and title*/
+	.max640-8 {
+		margin-top: 75px;
+	}
 
 }
 
