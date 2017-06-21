@@ -1,0 +1,999 @@
+/* This section is for styling the index, portfolio, and contact pages */
+
+/* Set background color for header*/
+header {
+	background-color: #cccccc;
+}
+
+/* Set alignment, width, and padding for navigation toolbar */
+nav {
+	text-align: right;
+	width: 270px;
+	padding: 2%;
+
+}
+
+/* Set anchor tag (link) color and padding */
+a {
+	color: #777777;
+	padding: 5px;
+	text-decoration: none;
+}
+
+/* Set body tag width, insert background pattern and size, font family,
+display flex property (for sticky footer), display flexible items as a column
+and zero margin top to prevent space at the top */
+
+body {
+	width: 960px;
+	background-image: url("cork-wallet.png");
+	background-size: 960px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	margin-top: 0;
+}
+
+/* The main content is shown in this section. The formatting for this
+section is covered in this styling. This includes width, margin,
+background color, and padding. It is floated in the left section 
+of the body */
+
+section {
+	width: 650px;
+	margin-left: 100px;
+	background-color: #ffffff;
+	color: #777777;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	float: left;
+	padding-bottom: 25px;
+}
+
+/* The "connect with me" links are shown in this aside. The formatting
+for this section is covered in this styling. This include width, 
+margin, background color, text alignment, height, and font size.
+It is floated in the body to the left of the previous section.  */
+
+aside {
+	float: left;
+	width: 270px;
+	background-color: #ffffff;
+	text-align: center;
+	margin-top: 25px;
+	margin-left: 10px;
+	font-size: 12px;
+	height: 150px;
+}
+
+/* All the formatting and margin/padding for the h1 element is specified
+in this section */
+
+h1 {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	margin-left: 25px;
+	margin-right: 25px;
+	padding-bottom: 3%;
+	padding-top: 3%;
+	border-bottom: solid;
+	border-color: #dddddd;
+	font-size: 24px;
+}
+
+/* All the formatting and margin/padding for the h2 element is specified
+in this section */
+
+h2 {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	margin-left: 25px;
+	margin-right: 25px;
+	padding-bottom: 5%;
+	padding-top: 5%;
+	border-bottom: solid;
+	border-color: #dddddd;
+	font-size: 20px;
+}
+
+/* All the formatting and margin/padding for the footer element is specified
+in this section. Also, the clear property prevents floating any other 
+elements on either side. */
+
+footer {
+	background-color: #666666;
+	text-align: center;
+	padding: 25px;
+	border-top: 5px solid #4aaaa5;
+	clear: both;
+	color: #777777;
+}
+
+/* text class sets the spacing for the text in the main content section
+using padding. In the future use line-height. */
+
+.text {
+	padding-right: 5%;
+	padding-left: 5%;
+	padding-top: 1.5%;
+	padding-bottom: 1%;
+}
+
+/* size class is used to size the icons used for the links provided
+in the "connect with me" section. */
+
+.size	{
+	height: 30%;
+	width: auto;
+	margin-top: 10%;
+}
+
+/* bio-image id is used to position the image used in the main content 
+section of index.html */
+
+#bio-image {
+	float: left;
+	width: 200px;
+	margin-right: 25px;
+	margin-left: 25px;
+	margin-top: 5%;
+}
+
+/* header id is used to properly format and align header on index.html,
+portfolio.html and contact.html */
+header {
+	width: 20%;
+	background-color: #4aaaa5;
+	text-align: center;
+	margin-left: 100px;
+	padding: 10px;
+	color: #ffffff;
+	font-size: 30px;
+}
+
+/* topsection id is used to format the div element that contains
+the name and the navigation bar. */
+#topsection {
+	background-color: #ffffff;
+	border-bottom: 2.5px solid #cccccc;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 0;
+}
+
+/* socialposition id us used to format the div elements that contains
+the main content and the "connect with me" section. The display flex 
+property puts the "connect with me" section to the right of the main 
+content. */
+#socialposition {
+	display: flex;
+	justify-content: space-between;
+	flex: 1;
+}
+
+/* The span tag is used to create the line between the "About", "Content"
+, and "Portfolio" links in the navigation bar. */
+span {
+	display: inline-block;
+	width: 0;
+	height: 0.75em;
+	border-left: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+}
+
+/* first id is used to properly space the first paragraph in the main
+content section of index.html. */
+#first {
+	margin-top: 5%;
+	padding-bottom: 1%;
+}
+
+/* Used to create sticky footer */
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+/* Used to create sticky footer */
+.Site-content {
+  flex: 1;
+}
+
+/* This section is for styling the portfolio page */
+
+/* container id creates top margin for div element that contains all
+the images and text for portfolio.html*/
+#container {
+	margin-top: 2%;
+}
+
+/* image1 id is to position image1 on portfolio.html*/
+.image1 {
+	height: 150px;
+	width: 250px;
+	position: relative;
+	left: 25px;
+	top: 10px;
+}
+
+/* text1 id is to position text1 on portfolio.html*/
+.text1 {
+	z-index: 100;
+	position: relative;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-size: 20px;
+	left: 25px;
+	top: -35px;
+	width: 250px;
+	text-align: center;
+	line-height: 125%;
+}
+
+/* image2 id is to position image2 on portfolio.html*/
+.image2 {
+	height: 150px;
+	width: 250px;
+	position: relative;
+	left: 305px;
+	top: -170px;
+}
+
+/* text2 id is to position text2 on portfolio.html*/
+.text2 {
+	z-index: 100;
+	position: relative;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-size: 20px;
+	left: 305px;
+	top: -213px;
+	width: 250px;
+	text-align: center;
+	line-height: 125%;
+}
+
+/* image3 id is to position image3 on portfolio.html*/
+.image3 {
+	height: 150px;
+	width: 250px;
+	position: relative;
+	left: 25px;
+	top: -150px;
+}
+
+/* text3 id is to position text3 on portfolio.html*/
+.text3 {
+	z-index: 100;
+	position: relative;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-size: 20px;
+	left: 25px;
+	top: -195px;
+	width: 250px;
+	text-align: center;
+	line-height: 125%;
+}
+
+/* image4 id is to position image4 on portfolio.html*/
+.image4 {
+	height: 150px;
+	width: 250px;
+	position: relative;
+	left: 305px;
+	top: -328px;
+}
+
+/* text4 id is to position text4 on portfolio.html*/
+.text4 {
+	z-index: 100;
+	position: relative;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-size: 20px;
+	left: 305px;
+	top: -375px;
+	width: 250px;
+	text-align: center;
+	line-height: 125%;
+}
+
+/* image5 id is to position image5 on portfolio.html*/
+.image5 {
+	height: 150px;
+	width: 250px;
+	position: relative;
+	left: 25px;
+	top: -310px;
+}
+
+/* text5 id is to position text5 on portfolio.html*/
+.text5 {
+	z-index: 100;
+	position: relative;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-size: 20px;
+	left: 25px;
+	top: -355px;
+	width: 250px;
+	text-align: center;
+	line-height: 125%;
+}
+
+/* This section is for styling the contact page */
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    padding: 20px;
+}
+
+/* The media screen tags are inserted in this section */
+
+/* Create query for desktop layout.*/
+
+@media screen and (max-width: 980px) {
+	
+	/* The following code applies to index.html when the screen shrinks
+	below 980px*/
+
+	/* Set the width of the div element that contains the header and
+	navigation toolbar*/
+	/* Apply to
+				index
+				portfolio
+				contact*/
+	.max980-1 {
+		width: 800px;
+	}
+
+	/* Set the with of the div element that contains the main content*/
+		/* Apply to
+				index
+				portfolio
+				contact*/
+	.max980-2 {
+		width: 800px;
+	}
+	
+	/* Center the image so that the text is pushed below it. Float: none
+	property does not work*/
+		/* Apply to
+				index*/
+	.max980-3 {
+		padding-right: 75px;
+		padding-left: 75px;
+		padding-bottom: 10px;
+	}
+	
+	/* Add padding to the first line so that it's aligned */
+			/* Apply to
+				index*/
+	.max980-4 {
+		padding-left: 20px;
+	}
+
+	/*Position images and text*/
+			/*Apply to 
+				portfolio*/
+
+	/* image1 id is to position image1 on portfolio.html*/
+	.image1-980 {
+		height: 250px;
+		width: 370px;
+		position: relative;
+		left: 25px;
+		top: 10px;
+	}
+
+	/* text1 id is to position text1 on portfolio.html*/
+	.text1-980 {
+		z-index: 100;
+		position: relative;
+		background-color: #4aaaa5;
+		color: #ffffff;
+		font-size: 30px;
+		left: 25px;
+		top: -70px;
+		width: 370px;
+		text-align: center;
+		line-height: 125%;
+	}
+
+	/* image2 id is to position image2 on portfolio.html*/
+	.image2-980 {
+		height: 250px;
+		width: 370px;
+		position: relative;
+		left: 25px;
+		top: 0px;
+	}
+
+	/* text2 id is to position text2 on portfolio.html*/
+	.text2-980 {
+		z-index: 100;
+		position: relative;
+		background-color: #4aaaa5;
+		color: #ffffff;
+		font-size: 30px;
+		left: 25px;
+		top: -70px;
+		width: 370px;
+		text-align: center;
+		line-height: 125%;
+	}
+
+	/* image3 id is to position image3 on portfolio.html*/
+	.image3-980 {
+		height: 250px;
+		width: 370px;
+		position: relative;
+		left: 25px;
+		top: 0px;
+	}
+
+	/* text3 id is to position text3 on portfolio.html*/
+	.text3-980 {
+		z-index: 100;
+		position: relative;
+		background-color: #4aaaa5;
+		color: #ffffff;
+		font-size: 30px;
+		left: 25px;
+		top: -70px;
+		width: 370px;
+		text-align: center;
+		line-height: 125%;
+	}
+
+	/* image4 id is to position image4 on portfolio.html*/
+	.image4-980 {
+		height: 250px;
+		width: 370px;
+		position: relative;
+		left: 25px;
+		top: 0px;
+	}
+
+	/* text4 id is to position text4 on portfolio.html*/
+	.text4-980 {
+		z-index: 100;
+		position: relative;
+		background-color: #4aaaa5;
+		color: #ffffff;
+		font-size: 30px;
+		left: 25px;
+		top: -70px;
+		width: 370px;
+		text-align: center;
+		line-height: 125%;
+	}
+
+	/* image5 id is to position image5 on portfolio.html*/
+	.image5-980 {
+		height: 250px;
+		width: 370px;
+		position: relative;
+		left: 25px;
+		top: 0px;
+	}
+
+	/* text5 id is to position text5 on portfolio.html*/
+	.text5-980 {
+		z-index: 100;
+		position: relative;
+		background-color: #4aaaa5;
+		color: #ffffff;
+		font-size: 30px;
+		left: 25px;
+		top: -70px;
+		width: 370px;
+		text-align: center;
+		line-height: 125%;
+	}
+
+
+	/*Fix footer width*/
+			/* Apply to
+				index
+				portfolio
+				contact*/
+	footer {
+		width: 800px;
+	}
+}
+
+
+/* Create query for tablet layout */
+
+
+@media screen and (max-width: 768px) {
+
+	/* The following code applies to index.html when the screen shrinks
+	below 768px*/
+
+	/* Set the header and navigation bar width/left margin
+	Set the section content of the main div element width. */
+			/* Apply to
+				index
+				portfolio
+				contact*/
+	.max768-1 {
+		width: 700px;
+		margin-left: -50px;
+	}
+
+	/* Set the width/left margin of the main content div.*/
+			/* Apply to
+				index
+				portfolio
+				contact*/
+	.max768-2 {
+		width: 700px;
+		margin-left: 20px;
+		flex-direction: column;
+	}
+
+	/* The section contains the main content. Set width and left margin */
+			/* Apply to
+				index
+				portfolio
+				contact*/
+	section {
+		width:600px;
+		margin-left: 30px; 
+	}
+
+	/* The aside contains the "connect with me" section. Set width,
+	margin, text align, and bottom margin from footer.  */
+			/* Apply to
+				index
+				portfolio
+				contact*/
+	aside {
+		width: 600px;
+		margin-left: 30px;
+		text-align: left;
+		margin-bottom: 25px	
+	}
+
+	/*Fix padding applied to image in 980px*/
+			/* Apply to
+				index*/
+	.max768-3 {
+		padding-right: 0;
+		padding-left: 0;
+	}
+
+	/* Space the icons in the "Connect with Me" section*/
+			/* Apply to
+				index
+				portfolio
+				contact*/
+	.max768-4 {
+		margin-left: 20px;
+		margin-top: 2%;
+		
+	}
+
+	/*Position images and text*/
+			/*Apply to 
+				portfolio*/
+
+	/* image1 id is to position image1 on portfolio.html*/
+	.image1-768 {
+		height: 150px;
+		width: 250px;
+		position: relative;
+		left: 25px;
+		top: 10px;
+	}
+
+	/* text1 id is to position text1 on portfolio.html*/
+	.text1-768 {
+		z-index: 100;
+		position: relative;
+		background-color: #4aaaa5;
+		color: #ffffff;
+		font-size: 20px;
+		left: 25px;
+		top: -35px;
+		width: 250px;
+		text-align: center;
+		line-height: 125%;
+	}
+
+	/* image2 id is to position image2 on portfolio.html*/
+	.image2-768 {
+		height: 150px;
+		width: 250px;
+		position: relative;
+		left: 305px;
+		top: -170px;
+	}
+
+	/* text2 id is to position text2 on portfolio.html*/
+	.text2-768 {
+		z-index: 100;
+		position: relative;
+		background-color: #4aaaa5;
+		color: #ffffff;
+		font-size: 20px;
+		left: 305px;
+		top: -213px;
+		width: 250px;
+		text-align: center;
+		line-height: 125%;
+	}
+
+	/* image3 id is to position image3 on portfolio.html*/
+	.image3-768 {
+		height: 150px;
+		width: 250px;
+		position: relative;
+		left: 25px;
+		top: -150px;
+	}
+
+	/* text3 id is to position text3 on portfolio.html*/
+	.text3-768 {
+		z-index: 100;
+		position: relative;
+		background-color: #4aaaa5;
+		color: #ffffff;
+		font-size: 20px;
+		left: 25px;
+		top: -195px;
+		width: 250px;
+		text-align: center;
+		line-height: 125%;
+	}
+
+	/* image4 id is to position image4 on portfolio.html*/
+	.image4-768 {
+		height: 150px;
+		width: 250px;
+		position: relative;
+		left: 305px;
+		top: -328px;
+	}
+
+	/* text4 id is to position text4 on portfolio.html*/
+	.text4-768 {
+		z-index: 100;
+		position: relative;
+		background-color: #4aaaa5;
+		color: #ffffff;
+		font-size: 20px;
+		left: 305px;
+		top: -375px;
+		width: 250px;
+		text-align: center;
+		line-height: 125%;
+	}
+
+	/* image5 id is to position image5 on portfolio.html*/
+	.image5-768 {
+		height: 150px;
+		width: 250px;
+		position: relative;
+		left: 25px;
+		top: -310px;
+	}
+
+	/* text5 id is to position text5 on portfolio.html*/
+	.text5-768 {
+		z-index: 100;
+		position: relative;
+		background-color: #4aaaa5;
+		color: #ffffff;
+		font-size: 20px;
+		left: 25px;
+		top: -355px;
+		width: 250px;
+		text-align: center;
+		line-height: 125%;
+	}
+
+	/* Set the width of the footer */
+			/* Apply to
+				index
+				portfolio
+				contact*/
+	footer {
+		width:600px; 
+	}
+
+}
+
+/*Create query for mobile phone landscape layout */
+
+@media screen and (max-width: 640px) {
+
+	/* set dimension and properties of div element that contains header
+	and nav bar */
+			/* Apply to
+				index
+				portfolio
+				contact*/
+	.max640-1 {
+		width: 625px;
+		margin-left: -60px;
+		flex-direction: column;
+	}
+
+	/* Set the width/left margin of the main content div.*/
+			/* Apply to
+				index
+				portfolio
+				contact*/
+	.max640-2 {
+		width: 600px;
+		margin-left: 10px;
+		flex-direction: column;
+	}
+
+	/* The section contains the main content. Set width and left margin */
+			/* Apply to
+				index
+				portfolio
+				contact*/
+	section {
+		width:500px;
+		margin-left: 30px; 
+	}
+
+	/* The aside contains the "connect with me" section. Set width,
+	margin, text align, and bottom margin from footer.  */
+			/* Apply to
+				index
+				portfolio
+				contact*/
+	aside {
+		width: 500px;
+		margin-left: 30px;
+		text-align: left;
+		margin-bottom: 25px	
+	}
+
+	/*Fix padding applied to image in 980px*/
+			/* Apply to
+				index*/
+	.max640-3 {
+		padding-right: 0;
+		padding-left: 0;
+	}
+
+	/* Space the icons in the "Connect with Me" section*/
+			/* Apply to
+				index
+				portfolio
+				contact*/
+	.max640-4 {
+		margin-left: 10;
+		margin-top: 2%;
+		padding-left: 0;
+		padding-right: 0;
+		
+	}
+
+	/*Fix header with name extended through entire width*/
+			/* Apply to
+				index
+				portfolio
+				contact*/
+	.max640-5 {
+		margin-left: auto;
+		width: 550px;
+		background-color: #4aaaa5;
+		text-align: center;
+		padding-left: 50px;
+		color: #ffffff;
+		font-size: 30px;
+	}
+
+	/* Fix link spacing in nav bar*/
+			/* Apply to
+				index
+				portfolio
+				contact*/
+	.max640-6 {
+		padding: 50px;
+	}
+
+	/* Fix nav bar alignment and size*/
+			/* Apply to
+				index
+				portfolio
+				contact*/
+	nav {
+	text-align: center;
+	width: 600px;
+	margin-left: 40px;
+	}
+
+	/*Position images and text*/
+			/*Apply to 
+				portfolio*/
+				
+	/* image1 id is to position image1 on portfolio.html*/
+	.image1-640 {
+		height: 250px;
+		width: 450px;
+		position: relative;
+		left: 25px;
+		top: 10px;
+	}
+
+	/* text1 id is to position text1 on portfolio.html*/
+	.text1-640 {
+		z-index: 100;
+		position: relative;
+		background-color: #4aaaa5;
+		color: #ffffff;
+		font-size: 30px;
+		left: 25px;
+		top: -70px;
+		width: 450px;
+		text-align: center;
+		line-height: 125%;
+	}
+
+	/* image2 id is to position image2 on portfolio.html*/
+	.image2-640 {
+		height: 250px;
+		width: 450px;
+		position: relative;
+		left: 25px;
+		top: 0px;
+	}
+
+	/* text2 id is to position text2 on portfolio.html*/
+	.text2-640 {
+		z-index: 100;
+		position: relative;
+		background-color: #4aaaa5;
+		color: #ffffff;
+		font-size: 30px;
+		left: 25px;
+		top: -70px;
+		width: 450px;
+		text-align: center;
+		line-height: 125%;
+	}
+
+	/* image3 id is to position image3 on portfolio.html*/
+	.image3-640 {
+		height: 250px;
+		width: 450px;
+		position: relative;
+		left: 25px;
+		top: 0px;
+	}
+
+	/* text3 id is to position text3 on portfolio.html*/
+	.text3-640 {
+		z-index: 100;
+		position: relative;
+		background-color: #4aaaa5;
+		color: #ffffff;
+		font-size: 30px;
+		left: 25px;
+		top: -70px;
+		width: 450px;
+		text-align: center;
+		line-height: 125%;
+	}
+
+	/* image4 id is to position image4 on portfolio.html*/
+	.image4-640 {
+		height: 250px;
+		width: 450px;
+		position: relative;
+		left: 25px;
+		top: 0px;
+	}
+
+	/* text4 id is to position text4 on portfolio.html*/
+	.text4-640 {
+		z-index: 100;
+		position: relative;
+		background-color: #4aaaa5;
+		color: #ffffff;
+		font-size: 30px;
+		left: 25px;
+		top: -70px;
+		width: 450px;
+		text-align: center;
+		line-height: 125%;
+	}
+
+	/* image5 id is to position image5 on portfolio.html*/
+	.image5-640 {
+		height: 250px;
+		width: 450px;
+		position: relative;
+		left: 25px;
+		top: 0px;
+	}
+
+	/* text5 id is to position text5 on portfolio.html*/
+	.text5-640 {
+		z-index: 100;
+		position: relative;
+		background-color: #4aaaa5;
+		color: #ffffff;
+		font-size: 30px;
+		left: 25px;
+		top: -70px;
+		width: 450px;
+		text-align: center;
+		line-height: 125%;
+	}
+
+	/* Set the width of the footer */
+			/* Apply to
+				index
+				portfolio
+				contact*/
+	footer {
+		width:515px; 
+	}
+
+	/* Create static header for mobile display*/
+	.max640-7 {
+    	position: fixed;
+    	z-index: 200;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

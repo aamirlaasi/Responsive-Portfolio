@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<title>Contact</title>
+	<!-- Link to the reset css to reset stylings of all html elements !-->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<!-- Link to stylesheet for this project !-->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!-- Add viewport tag for mobile display -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<!-- Create body to contain all elements !-->
+<body class="Site">
+
+	<!-- Create div element for header and navigation toolbar !-->
+
+	<div id="topsection" class="max980-1 max768-1 max640-1 max640-7">
+
+		<header class="max640-5">Aamir Laasi</header>
+
+		<!-- Creat navigation toolbar !-->
+
+		<nav>
+			<a class="max640-6" href="index.html">About</a>
+			<span class="divider"></span>
+			<a class="max640-6" href="portfolio.html" target="_self">Portfolio</a>
+			<span class="divider"></span>
+			<a class="max640-6" href="contact.html" target="_self">Contact</a>
+		</nav>
+
+	</div>
+
+	<!-- Create div element to contain images and "connect me" links !-->
+
+	<div id="socialposition" class="max980-2 max768-2 max640-2">
+
+		<!-- Show main content here. Includes header and form !-->
+
+		<section class="Site-content">
+		
+			<h1>Contact</h1>
+
+			<!-- Create element to contain form !-->
+			<div class="container">
+			  <form action="/action_page.php">
+
+				<!-- Create label and input !-->
+			    <label for="fname">Name</label>
+			    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+				<!-- Create label and input !-->				
+			    <label for="email">Email</label>
+			    <input type="text" id="email" name="email" placeholder="example@gmail.com">
+
+				<!-- Create label and input !-->
+			    <label for="subject">Message</label>
+			    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+				<!-- Create submit button !-->
+			    <input type="submit" value="Submit">
+
+			  </form>
+			</div>
+
+		</section>
+
+		<!-- Show "Connect with me" links in this aside !-->
+		
+		<aside>
+			<h2>Connect with Me</h2>
+
+			<a href="https://github.com/aamirlaasi" target="_blank"><img src="assets/images/git.png" alt="github" class="size max768-4"></a>
+
+			<a href="https://linkedin.com/aamirlaasi" target="blank"><img src="assets/images/linkedin.png" alt="linkedin" class="size max768-4"></a>
+			
+			<a href="https://stackoverflow.com/users/7928734/a-laasi?tab=profile" target="_blank"><img src="assets/images/stackoverflow.png" alt="stackoverflow" class="size max768-4"></a>
+
+		</aside>
+
+	</div>
+	
+	<!-- This is the footer !-->
+	<footer> © Copyright 2017 Aamir Laasi</footer>
+
+</body>
+
+</html>
